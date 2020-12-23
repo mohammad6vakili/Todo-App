@@ -1,0 +1,71 @@
+body {
+  background-color: rgb(255, 154, 154) !important;
+
+}
+header {
+  text-align: center;
+  height: 10vh;
+  margin-top: 100px;
+  color: white;
+  font-style: italic;
+}
+form {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+.todo-input {
+  width: 400px;
+  height: 6vh;
+  border: none;
+}
+.todo-button {
+  background-color: white;
+  border-radius: 0 !important;
+  height:6vh !important ;
+}
+.filter-todo {
+  margin-left: 30px;
+  width: 120px;
+  height: 5vh;
+}
+
+.todo-button:hover {
+  background-color: rgb(255, 51, 0);
+}
+.todo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 8px;
+}
+.todo-item {
+  width: 25%;
+  background-color: white;
+  list-style-type: none;
+  padding-left: 20px;
+  height: 6vh;
+  display: flex;
+  align-items: center;
+}
+.complete-btn {
+  border-radius: 0 !important;
+  background-color: rgb(65, 252, 252);
+  height: 6vh !important;
+}
+.complete-btn:hover {
+  background-color: rgb(5, 165, 165);
+}
+.trash-btn {
+  background-color: rgb(245, 99, 99) !important;
+  border-radius: 0 !important;
+  height: 6vh !important;
+}
+.trash-btn:hover {
+  background-color: rgb(180, 1, 1) !important;
+}
+.completed {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
